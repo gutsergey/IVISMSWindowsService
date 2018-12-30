@@ -1,0 +1,9 @@
+table EventsCallControlConnectionAbandoned
+in the field:[CI_CallOriginatorType]
+
+May be the following values:
+
+-1 or < 900 not processed yet
+900 - record being processed
+910 - sending sms was ok
+999 - sending sms failed
